@@ -1,0 +1,37 @@
+main {
+    margin: 0;
+    text-align: center;
+    background-color: azure;
+}
+
+main h2, p {
+    margin: 0;
+}
+
+main h2 {
+    padding: 100px 0px 20px 0px;
+    font-weight: bold;
+}
+
+#about {
+    padding-bottom: 1.5rem;
+}
+
+#about p {
+    padding: 0.6rem 9.5rem;
+}
+
+@media (max-width: 58rem) {
+
+    #about p {
+        padding: 0.6rem 4rem;
+    }
+}
+
+@media (max-width: 48rem) {
+
+    #navigation {
+        display: none;
+    }
+
+}
